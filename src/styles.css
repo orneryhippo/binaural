@@ -8,7 +8,22 @@
   border-radius: 8px;
   box-sizing: border-box;
 }
+.preset-info {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
 
+.preset-info h3 {
+  margin-bottom: 10px;
+}
+
+.preset-info div {
+  margin: 5px 0;
+}
+
+.preset-info span {
+  font-weight: bold;
+}
 .slider-container {
   display: flex;
   flex-direction: column;

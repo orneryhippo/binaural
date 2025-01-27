@@ -202,7 +202,14 @@ const BinauralBeatsPlayer: React.FC = () => {
       </button>
     ))}
   </div>
-
+  <div className="preset-info">
+    <h3>Brainwave Frequencies:</h3>
+    {brainwavePresets.map((preset) => (
+      <div key={preset.name}>
+        <span>{preset.name}:</span> {preset.description}
+      </div>
+    ))}
+  </div>
   <div className="slider-container">
   <div>
     <label>Base Frequency: {baseFreq}Hz</label>
